@@ -1,12 +1,12 @@
-# 🏦 Bank Loan Analysis — Power BI Report
+# 🏦 Bank Loan Analysis — Python EDA
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-217346?style=for-the-badge&logo=microsoft&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishek-nirmal-3b6325370/)
 
-An end-to-end analysis of a bank's loan portfolio — built to track lending performance, monitor repayment health, and segment risk across **38,576 loan applications** worth **$435.76M** in funded amount. The project combines Python-based exploratory data analysis with an interactive Power BI dashboard for business-facing reporting.
+An end-to-end analysis of a bank's loan portfolio — built to track lending performance, monitor repayment health, and segment risk across **38,576 loan applications** worth **$435.76M** in funded amount. The project covers data cleaning, KPI calculation, and exploratory visualization entirely in Python.
 
 ---
 
@@ -56,26 +56,32 @@ Banks need to answer two questions continuously: *how much are we lending, and h
 | Tool | Purpose |
 |---|---|
 | **Python** (Pandas, NumPy) | Data cleaning, KPI calculation, MTD logic |
-| **Matplotlib / Seaborn / Plotly** | Exploratory visualizations (trend lines, bar charts, treemap) |
-| **Power BI** | Interactive dashboard with DAX measures for business reporting |
-| **DAX** | KPI cards, Good/Bad loan measures, time-intelligence (MTD) calculations |
+| **Matplotlib / Seaborn** | Trend lines, bar charts, comparison visuals |
+| **Plotly** | Interactive treemap (home ownership breakdown) |
+| **Jupyter Notebook** | End-to-end analysis environment |
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-├── Bank_Loan_Analysis.ipynb     # Python EDA: KPIs, trends, segment analysis
+├── Bank Loan Analysis.ipynb     # Python EDA: KPIs, trends, segment analysis
 ├── financial_loan.csv           # Source dataset
-├── Bank Loan Report.pbix        # Power BI dashboard
+├── dashboard_preview.png        # Composite chart overview
 └── README.md
 ```
 
+**Quick links:**
+- 📓 [Bank Loan Analysis.ipynb](https://github.com/abhisheknirmal02-lab/US-Bank-Loan-Analysis-Python-EDA-/blob/main/Bank%20Loan%20Analysis.ipynb) — full notebook with code and outputs
+- 📄 [financial_loan.csv](https://github.com/abhisheknirmal02-lab/US-Bank-Loan-Analysis-Python-EDA-/blob/main/financial_loan.csv) — source dataset
+
 ---
 
-## 📷 Dashboard Preview
+## 📷 Analysis Overview
 
-*(Add Power BI dashboard screenshots here)*
+![Dashboard Preview](https://github.com/abhisheknirmal02-lab/US-Bank-Loan-Analysis-Python-EDA-/blob/main/dashboard_preview.png?raw=true)
+
+*All charts generated in Python (Matplotlib, Seaborn, Plotly) — composited here for a single-page overview. Full code and individual outputs are in the notebook.*
 
 ---
 
@@ -87,4 +93,6 @@ With an 86.18% good-loan rate but bad loans recovering only ~57% of their funded
 
 ## 🔗 Connect
 
-Feel free to explore the dashboard and reach out if you'd like to discuss the approach or dataset.
+Feel free to explore the notebook and reach out if you'd like to discuss the approach or dataset.
+
+📌 [Connect with me on LinkedIn](https://www.linkedin.com/in/abhishek-nirmal-3b6325370/)
